@@ -112,3 +112,33 @@ INFO:root:log my final result [{'Product': 'hp', 'Name': 'William  Zambre', 'Rat
 INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:33:52] "POST /review HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:33:52] "[33mGET /style.css HTTP/1.1[0m" 404 -
 INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:33:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 609-764-358
+INFO:werkzeug: * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:53:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:53:14] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:53:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:53:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:53:15] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:53:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:53:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:53:16] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:53:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:53:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:53:16] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:53:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:53:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:53:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:53:16] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:53:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:53:16] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:53:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'redmi', 'Name': 'vishal Katariya', 'Rating': '4', 'CommentHead': 'Delightful', 'Comment': '', '_id': ObjectId('64c9e8502b6d68c5d25d5edf')}, {'Product': 'redmi', 'Name': 'rahul kumar', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Best option in this price point', '_id': ObjectId('64c9e8502b6d68c5d25d5ee0')}, {'Product': 'redmi', 'Name': 'Kannan Cs', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': 'The best mobile in under 11000 the best and best phone  usefull money', '_id': ObjectId('64c9e8502b6d68c5d25d5ee1')}, {'Product': 'redmi', 'Name': 'SAGAR T THORBOLE', 'Rating': '5', 'CommentHead': 'Highly recommended', 'Comment': "This is Honest Review. Performance is best. 5/5Display is also best. 5/5Camera is Average 3/5Battery is Best 5/5(No Lag No Hang, Smooth UI, Perfect Design) Don't Think Go for it", '_id': ObjectId('64c9e8502b6d68c5d25d5ee2')}, {'Product': 'redmi', 'Name': 'Manzoor Hussain', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': 'I love my phone', '_id': ObjectId('64c9e8502b6d68c5d25d5ee3')}, {'Product': 'redmi', 'Name': 'sushant kumar', 'Rating': '5', 'CommentHead': 'Super!', 'Comment': 'Super smart phone nice display love this phone', '_id': ObjectId('64c9e8502b6d68c5d25d5ee4')}, {'Product': 'redmi', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Excellent', '_id': ObjectId('64c9e8502b6d68c5d25d5ee5')}, {'Product': 'redmi', 'Name': 'Snigdhata Ghosh', 'Rating': '4', 'CommentHead': 'Classy product', 'Comment': 'Value for money.... Good quality, Good looking...', '_id': ObjectId('64c9e8502b6d68c5d25d5ee6')}, {'Product': 'redmi', 'Name': 'Naidu Sasikala', 'Rating': '1', 'CommentHead': 'Terrible product', 'Comment': 'Product not good ,battery charging takes more time finger sensor issue,over heating mobile', '_id': ObjectId('64c9e8502b6d68c5d25d5ee7')}, {'Product': 'redmi', 'Name': 'manish mehta', 'Rating': '1', 'CommentHead': 'Unsatisfactory', 'Comment': 'Charging is very slow', '_id': ObjectId('64c9e8502b6d68c5d25d5ee8')}, {'Product': 'redmi', 'Name': 'manish mehta', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Charging is very slow', '_id': ObjectId('64c9e8502b6d68c5d25d5ee9')}]
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:53:28] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:53:28] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:53:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
