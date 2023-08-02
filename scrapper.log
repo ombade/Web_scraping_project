@@ -1,0 +1,114 @@
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.105.113:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:02:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:02:36] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:02:36] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'redmi', 'Name': 'rahul kumar', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Best option in this price point'}, {'Product': 'redmi', 'Name': 'Kannan Cs', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': 'The best mobile in under 11000 the best and best phone  usefull money'}, {'Product': 'redmi', 'Name': 'SAGAR T THORBOLE', 'Rating': '5', 'CommentHead': 'Highly recommended', 'Comment': "This is Honest Review. Performance is best. 5/5Display is also best. 5/5Camera is Average 3/5Battery is Best 5/5(No Lag No Hang, Smooth UI, Perfect Design) Don't Think Go for it"}, {'Product': 'redmi', 'Name': 'Manzoor Hussain', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': 'I love my phone'}, {'Product': 'redmi', 'Name': 'sushant kumar', 'Rating': '5', 'CommentHead': 'Super!', 'Comment': 'Super smart phone nice display love this phone'}, {'Product': 'redmi', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Excellent'}, {'Product': 'redmi', 'Name': 'Snigdhata Ghosh', 'Rating': '4', 'CommentHead': 'Classy product', 'Comment': 'Value for money.... Good quality, Good looking...'}, {'Product': 'redmi', 'Name': 'Naidu Sasikala', 'Rating': '1', 'CommentHead': 'Terrible product', 'Comment': 'Product not good ,battery charging takes more time finger sensor issue,over heating mobile'}, {'Product': 'redmi', 'Name': 'manish mehta', 'Rating': '1', 'CommentHead': 'Unsatisfactory', 'Comment': 'Charging is very slow'}, {'Product': 'redmi', 'Name': 'Anamika Sarkar', 'Rating': '1', 'CommentHead': 'Utterly Disappointed', 'Comment': 'Camera quality very very bad not good'}, {'Product': 'redmi', 'Name': 'Anamika Sarkar', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Camera quality very very bad not good'}]
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:02:45] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:02:45] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:02:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:No Comment Heading
+INFO:root:local variable 'name' referenced before assignment
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:03:15] "POST /review HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:No Comment Heading
+INFO:root:local variable 'name' referenced before assignment
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:03:22] "POST /review HTTP/1.1" 200 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'phone', 'Name': 'Ricky Customer', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'Good range mobile'}, {'Product': 'phone', 'Name': 'Sohel  Asgar', 'Rating': '4', 'CommentHead': 'Delightful', 'Comment': "Considering the budget it's good"}, {'Product': 'phone', 'Name': 'Mohd Shafik Ansari', 'Rating': '5', 'CommentHead': 'Terrific purchase', 'Comment': 'Good'}, {'Product': 'phone', 'Name': 'Sai', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'One of the best phone in the smart series performance camera battery is very good'}, {'Product': 'phone', 'Name': 'Manas Yadav', 'Rating': '5', 'CommentHead': 'Super!', 'Comment': 'Best phone in this range \u2764\ufe0f'}, {'Product': 'phone', 'Name': 'Satish Jaiswal ', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Good smartphone'}, {'Product': 'phone', 'Name': 'Khushiram Yogi', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Wonderful \U0001f44d'}, {'Product': 'phone', 'Name': 'RAHUL.G G', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': 'Best one infinix smooth phone smooth display best   cost not have camera clarity \U0001f389\U0001f389\U0001f973\U0001f973\U0001f4a5\U0001f4a5\U0001f4a5\U0001f60e\U0001f44c\U0001f60d'}, {'Product': 'phone', 'Name': 'Parveen Rana G', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': 'Very very best phone very excellent very smooth value for money best battery backup very fast working very fast charge'}, {'Product': 'phone', 'Name': 'Nitish Kumar', 'Rating': '4', 'CommentHead': 'Good choice', 'Comment': 'Nice product... \U0001f44d'}, {'Product': 'phone', 'Name': 'Nitish Kumar', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Nice product... \U0001f44d'}]
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:03:53] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:03:53] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:03:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:log my final result []
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:04:12] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:04:12] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:04:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:No Comment Heading
+INFO:root:local variable 'name' referenced before assignment
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:04:23] "POST /review HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.105.113:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:23:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:23:24] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:23:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:Username and password must be escaped according to RFC 3986, use urllib.parse.quote_plus
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:23:33] "POST /review HTTP/1.1" 200 -
+INFO:root:Username and password must be escaped according to RFC 3986, use urllib.parse.quote_plus
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:23:46] "POST /review HTTP/1.1" 200 -
+INFO:root:Username and password must be escaped according to RFC 3986, use urllib.parse.quote_plus
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:23:59] "POST /review HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.105.113:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:25:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:25:33] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:25:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:Username and password must be escaped according to RFC 3986, use urllib.parse.quote_plus
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:25:41] "POST /review HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.105.113:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:26:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:26:57] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:26:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'redmi', 'Name': 'vishal Katariya', 'Rating': '4', 'CommentHead': 'Delightful', 'Comment': ''}, {'Product': 'redmi', 'Name': 'rahul kumar', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Best option in this price point'}, {'Product': 'redmi', 'Name': 'Kannan Cs', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': 'The best mobile in under 11000 the best and best phone  usefull money'}, {'Product': 'redmi', 'Name': 'SAGAR T THORBOLE', 'Rating': '5', 'CommentHead': 'Highly recommended', 'Comment': "This is Honest Review. Performance is best. 5/5Display is also best. 5/5Camera is Average 3/5Battery is Best 5/5(No Lag No Hang, Smooth UI, Perfect Design) Don't Think Go for it"}, {'Product': 'redmi', 'Name': 'Manzoor Hussain', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': 'I love my phone'}, {'Product': 'redmi', 'Name': 'sushant kumar', 'Rating': '5', 'CommentHead': 'Super!', 'Comment': 'Super smart phone nice display love this phone'}, {'Product': 'redmi', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Excellent'}, {'Product': 'redmi', 'Name': 'Snigdhata Ghosh', 'Rating': '4', 'CommentHead': 'Classy product', 'Comment': 'Value for money.... Good quality, Good looking...'}, {'Product': 'redmi', 'Name': 'Naidu Sasikala', 'Rating': '1', 'CommentHead': 'Terrible product', 'Comment': 'Product not good ,battery charging takes more time finger sensor issue,over heating mobile'}, {'Product': 'redmi', 'Name': 'manish mehta', 'Rating': '1', 'CommentHead': 'Unsatisfactory', 'Comment': 'Charging is very slow'}, {'Product': 'redmi', 'Name': 'manish mehta', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Charging is very slow'}]
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:27:04] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:27:04] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:27:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.105.113:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:28:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:28:38] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:28:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:Username and password must be escaped according to RFC 3986, use urllib.parse.quote_plus
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:28:46] "POST /review HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.105.113:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:31:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:31:25] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:31:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'redmi', 'Name': 'Anupam Samanta', 'Rating': '5', 'CommentHead': 'Fabulous!', 'Comment': 'Good', '_id': ObjectId('64c9e3310c0341771d785f8d')}, {'Product': 'redmi', 'Name': 'Vishal Sharma', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'WORTH FOR MONEY. A1 AND LONG LASTING QUALITY. MUST BUY. ITS 90 DEGREE JACK ANGLE PROVIDES SAFETY TO YOUR EARPHONES EVEN IN YOUR TIGHT POCKET. PLACEMENT OF MIC IS REALLY AWSOME MIC IS PLACED JUST RIGHT SIDE OR YOUR EARPHONES SO YOU CAN TALK EASILY. ???? ????????? ??? ???????.. ???? ????????? ???? ????? ??? ???????. ??? ??? ????? ?????? ??? ??? ????? ?? ???? ???? ?????.', '_id': ObjectId('64c9e3310c0341771d785f8e')}, {'Product': 'redmi', 'Name': 'Biswajit  Mondal', 'Rating': '4', 'CommentHead': 'Good quality product', 'Comment': 'Good quality product.I \u2665\ufe0f MI', '_id': ObjectId('64c9e3310c0341771d785f8f')}, {'Product': 'redmi', 'Name': 'Tejeshwar Sahu', 'Rating': '4', 'CommentHead': 'Delightful', 'Comment': 'Ok ok', '_id': ObjectId('64c9e3310c0341771d785f90')}, {'Product': 'redmi', 'Name': 'Reena Kumari', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Very good', '_id': ObjectId('64c9e3310c0341771d785f91')}, {'Product': 'redmi', 'Name': 'Jayanth S', 'Rating': '4', 'CommentHead': 'Good choice', 'Comment': 'Writing this after 1 month useSound quality is excellent I am happy with the probuctIt is good  earphone at this price', '_id': ObjectId('64c9e3310c0341771d785f92')}, {'Product': 'redmi', 'Name': 'ringshar boro', 'Rating': '4', 'CommentHead': 'Good choice', 'Comment': 'Sound is good but doesnot fit in ear properly.... Need modification', '_id': ObjectId('64c9e3310c0341771d785f93')}, {'Product': 'redmi', 'Name': 'Sonali kumari', 'Rating': '4', 'CommentHead': 'Delightful', 'Comment': "Though I have received it today, they were running late as the delivery date was yesterday but still I'm satisfied because I have limited budget to spend.. Sound and bass is really good, overall a smart product and Very comfortable to use.. Let's check its durability and hoping that it will give some affirmative outcomes... \U0001f607", '_id': ObjectId('64c9e3310c0341771d785f94')}, {'Product': 'redmi', 'Name': 'Aditya Azad', 'Rating': '4', 'CommentHead': 'Very Good', 'Comment': 'Good but slip fom ear very easily', '_id': ObjectId('64c9e3310c0341771d785f95')}, {'Product': 'redmi', 'Name': 'Johnny bhuyan', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Amazing headphones for this price.... Bass is good compared to other headphones... Love it', '_id': ObjectId('64c9e3310c0341771d785f96')}, {'Product': 'redmi', 'Name': 'Johnny bhuyan', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Amazing headphones for this price.... Bass is good compared to other headphones... Love it', '_id': ObjectId('64c9e3310c0341771d785f97')}]
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:31:39] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:31:39] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:31:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'laptop', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Highly recommended', 'Comment': "This is a wonderful product of this prize it's a great product .", '_id': ObjectId('64c9e3a60c0341771d785f99')}, {'Product': 'laptop', 'Name': 'Pankaj kumar', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': 'Good product for learning.I am satisfied with the product and enjoy.', '_id': ObjectId('64c9e3a60c0341771d785f9a')}, {'Product': 'laptop', 'Name': 'sakil anwar', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'thats amazing product. i fall in love with this display and this performance.', '_id': ObjectId('64c9e3a60c0341771d785f9b')}, {'Product': 'laptop', 'Name': 'Udit Pratap Singh', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'Best Laptop For Students', '_id': ObjectId('64c9e3a60c0341771d785f9c')}, {'Product': 'laptop', 'Name': 'shobhit sonker', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': 'Value for money product \u2764\ufe0f', '_id': ObjectId('64c9e3a60c0341771d785f9d')}, {'Product': 'laptop', 'Name': 'Sachin Kumar', 'Rating': '5', 'CommentHead': 'Mind-blowing purchase', 'Comment': 'Fantastic choice', '_id': ObjectId('64c9e3a60c0341771d785f9e')}, {'Product': 'laptop', 'Name': 'Mukesh Singh', 'Rating': '5', 'CommentHead': 'Must buy!', 'Comment': 'Nice laptop for basic use.', '_id': ObjectId('64c9e3a60c0341771d785f9f')}, {'Product': 'laptop', 'Name': 'SUKANT SAMAL', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': "It is a best choice for beginners and students especially online classes. It's a low budget gadgets far better than a mobile and little lesser than a window based laptop. All apps are available in app store. Battery back up is very good. Cammera to be improved. Made in India. Thanks.", '_id': ObjectId('64c9e3a60c0341771d785fa0')}, {'Product': 'laptop', 'Name': 'Kamlesh kurmi', 'Rating': '5', 'CommentHead': 'Classy product', 'Comment': 'Really happy with the product , I find it a very useful product for my child studies. I will refer it to as many parents as possible', '_id': ObjectId('64c9e3a60c0341771d785fa1')}, {'Product': 'laptop', 'Name': 'Vishal Kasana', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Awesome laptop with great specificationsNo lag no hang. display quality and built are quite good.I like prime OS easy to use', '_id': ObjectId('64c9e3a60c0341771d785fa2')}, {'Product': 'laptop', 'Name': 'Vishal Kasana', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Awesome laptop with great specificationsNo lag no hang. display quality and built are quite good.I like prime OS easy to use', '_id': ObjectId('64c9e3a60c0341771d785fa3')}]
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:33:35] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:33:35] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:33:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'hp', 'Name': 'William  Zambre', 'Rating': '5', 'CommentHead': 'Just wow!', 'Comment': 'Nice', '_id': ObjectId('64c9e3b70c0341771d785fa5')}, {'Product': 'hp', 'Name': 'Purna prava Nanda', 'Rating': '5', 'CommentHead': 'Terrific purchase', 'Comment': 'Also good', '_id': ObjectId('64c9e3b70c0341771d785fa6')}, {'Product': 'hp', 'Name': 'Mohit Kumar', 'Rating': '1', 'CommentHead': 'Useless product', 'Comment': 'Black color buy Kiya but try color aa gya...bad flippant', '_id': ObjectId('64c9e3b70c0341771d785fa7')}, {'Product': 'hp', 'Name': 'Arjit Prakash', 'Rating': '1', 'CommentHead': 'Very poor', 'Comment': "Didn't work in my printer waste of money and there is also no return policy..", '_id': ObjectId('64c9e3b70c0341771d785fa8')}, {'Product': 'hp', 'Name': 'Dipu Divakar', 'Rating': '3', 'CommentHead': 'Does the job', 'Comment': 'Worst , after 4 days it corrupted', '_id': ObjectId('64c9e3b70c0341771d785fa9')}, {'Product': 'hp', 'Name': 'SHIVANNA V', 'Rating': '1', 'CommentHead': 'Absolute rubbish!', 'Comment': 'Not at all worthy...Description says yield 120 pages, but actually in real less than 30 pages.', '_id': ObjectId('64c9e3b70c0341771d785faa')}, {'Product': 'hp', 'Name': 'Anirban Biswas', 'Rating': '1', 'CommentHead': 'Useless product', 'Comment': 'Dont buy this .... waste', '_id': ObjectId('64c9e3b70c0341771d785fab')}, {'Product': 'hp', 'Name': 'Flipkart Customer', 'Rating': '1', 'CommentHead': 'Hated it!', 'Comment': 'Bad product', '_id': ObjectId('64c9e3b70c0341771d785fac')}, {'Product': 'hp', 'Name': 'Flipkart Customer', 'Rating': '1', 'CommentHead': 'Very poor', 'Comment': 'Waste money', '_id': ObjectId('64c9e3b70c0341771d785fad')}, {'Product': 'hp', 'Name': 'Brij bhan  Maurya', 'Rating': '1', 'CommentHead': 'Useless product', 'Comment': 'Worsted', '_id': ObjectId('64c9e3b70c0341771d785fae')}, {'Product': 'hp', 'Name': 'Brij bhan  Maurya', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Worsted', '_id': ObjectId('64c9e3b70c0341771d785faf')}]
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:33:52] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:33:52] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:33:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
