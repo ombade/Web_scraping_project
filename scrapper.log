@@ -142,3 +142,7 @@ INFO:root:log my final result [{'Product': 'redmi', 'Name': 'vishal Katariya', '
 INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:53:28] "POST /review HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:53:28] "[33mGET /style.css HTTP/1.1[0m" 404 -
 INFO:werkzeug:127.0.0.1 - - [02/Aug/2023 10:53:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 609-764-358
+INFO:werkzeug: * Running on http://127.0.0.1:8000/ (Press CTRL+C to quit)
