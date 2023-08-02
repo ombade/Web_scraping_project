@@ -7,8 +7,8 @@ from urllib.request import urlopen as uReq
 import logging
 logging.basicConfig(filename="scrapper.log", level=logging.INFO)
 
-app = Flask(__name__)
-
+application = Flask(__name__)
+app = application
 
 @app.route("/", methods=['GET'])
 @cross_origin()
@@ -95,7 +95,7 @@ def index():
 
 
 if __name__ == "__main__":
-    app.run(host='127.0.0.1', port=8000, debug=True)
+    app.run(host='0.0.0.0', port=8000, debug=True)
     # app.run(debug=True)
 
 # from flask import Flask, render_template, request, jsonify
